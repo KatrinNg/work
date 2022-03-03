@@ -1,0 +1,18 @@
+export const PAGE_STATUS = {
+    VIEWING: 'VIEWING',
+    NONEDITABLE: 'NONEDITABLE',
+    SEARCHING: 'SEARCHING',
+    EDITING: 'EDITING',
+    ADDING: 'ADDING'
+};
+
+export const ENCT_STATUS_TYPE = {
+    AVAILABLE: 'AVAILABLE',
+    SELECTED: 'SELECTED'
+};
+export const ACTION = {
+    AR: 'ALL_RIGHT',
+    SR: 'SINGLE_RIGHT',
+    SL: 'SINGLE_LEFT',
+    AL: 'ALL_LEFT'
+};

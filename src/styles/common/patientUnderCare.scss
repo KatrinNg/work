@@ -1,0 +1,20 @@
+#patientUnderCareDialogContent {
+    .MuiRadio-root {
+        margin: 0 9px;
+        padding: 0;
+    }
+
+    .MuiIconButton-colorSecondary:hover {
+        background-color: rgba(91,155,213, 0.8);
+    }
+
+    .MuiRadio-colorSecondary.Mui-checked {
+        color: #5b9bd5 !important;
+    }
+    .ReasonDetailBlock {
+        div {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

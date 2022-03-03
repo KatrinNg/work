@@ -1,0 +1,21 @@
+export const initNotice = {
+    noticeId: 0,
+    svcCd: 'all',
+    efftDate: null,
+    efftTime: null,
+    expyDate: null,
+    expyTime: null,
+    recipient: 'All Users',
+    content: '',
+    isNew: 0,
+    newExpyDate: null,
+    isImprtnt: 0,
+    imprtntExpyDate: null,
+    isUrg: 0,
+    urgExpyDate: null,
+    isAlwaysOnTop: 0,
+    isEnable: '1',
+    docObjectId: 0,
+    isDel: 0,
+    docName: ''
+};

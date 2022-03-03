@@ -1,0 +1,45 @@
+#printContainer{
+    display: none;
+}
+  
+  
+@media print{
+    @page { margin: 0; }
+    .App-header, .Toolbar, .App-body{
+        display:none;
+    }
+    
+    .viewerWrapper {
+        position: absolute;
+        width: 100vh;
+        height: 100vw;
+    }
+
+    /* body *:not(.printContent):not(#printContainer):not(.imgPrint):not(.printImg){ */
+        /* display:none; */
+    /* } */
+    #printContainer{
+        display: block;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #printContainer div{
+        position: relative;
+        top: 0;
+        left: 0;
+        /* width: 1px;
+        height: 1px; */
+        overflow: visible;
+        page-break-after: always;
+        page-break-inside: avoid;
+        padding: 0;
+        margin: 0 -10px;
+    }
+
+    #printContainer div img{
+        width: 21cm;
+        height: 29.7cm;
+    }
+
+}

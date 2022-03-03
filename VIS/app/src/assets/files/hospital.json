@@ -1,0 +1,937 @@
+[
+  {
+    "id": 1,
+    "seqNo": 1,
+    "value": "Cheshire Home, Chung Hom Kok",
+    "cluster": "Hong Kong East Cluster",
+    "labelEN": "Cheshire Home, Chung Hom Kok",
+    "labelTC": "舂磡角慈氏護養院",
+    "ward": [
+      {
+        "value": "A1",
+        "labelEN": "A1",
+        "labelTC": "A1"
+      },
+      {
+        "value": "A2",
+        "labelEN": "A2",
+        "labelTC": "A2"
+      },
+      {
+        "value": "A3",
+        "labelEN": "A3",
+        "labelTC": "A3"
+      },
+      {
+        "value": "B1",
+        "labelEN": "B1",
+        "labelTC": "B1"
+      },
+      {
+        "value": "B2",
+        "labelEN": "B2",
+        "labelTC": "B2"
+      },
+      {
+        "value": "B3",
+        "labelEN": "B3",
+        "labelTC": "B3"
+      },
+      {
+        "value": "C1",
+        "labelEN": "C1",
+        "labelTC": "C1"
+      },
+      {
+        "value": "C2",
+        "labelEN": "C2",
+        "labelTC": "C2"
+      },
+      {
+        "value": "C3",
+        "labelEN": "C3",
+        "labelTC": "C3"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "seqNo": 2,
+    "value": "Cheshire Home, Shatin",
+    "cluster": "New Territories  East Cluster",
+    "labelEN": "Cheshire Home, Shatin",
+    "labelTC": "沙田慈氏護養院 ",
+    "ward": [
+      {
+        "value": "Chalets",
+        "labelEN": "Chalets",
+        "labelTC": "白端良小屋"
+      },
+      {
+        "value": "W1",
+        "labelEN": "W1",
+        "labelTC": "W1"
+      },
+      {
+        "value": "W2",
+        "labelEN": "W2",
+        "labelTC": "W2"
+      },
+      {
+        "value": "W3",
+        "labelEN": "W3",
+        "labelTC": "W3"
+      },
+      {
+        "value": "W4",
+        "labelEN": "W4",
+        "labelTC": "W4"
+      },
+      {
+        "value": "W5",
+        "labelEN": "W5",
+        "labelTC": "W5"
+      },
+      {
+        "value": "W6",
+        "labelEN": "W6",
+        "labelTC": "W6"
+      },
+      {
+        "value": "W7",
+        "labelEN": "W7",
+        "labelTC": "W7"
+      },
+      {
+        "value": "W8",
+        "labelEN": "W8",
+        "labelTC": "W8"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "seqNo": 3,
+    "value": "Developmental Disabilities Unit, Wai Yee Block, Caritas Medical Centre",
+    "cluster": "Kowloon West Cluster",
+    "labelEN": "Developmental Disabilities Unit, Wai Yee Block, Caritas Medical Centre",
+    "labelTC": "明愛醫院懷義樓 - 兒童發展復康部",
+    "ward": [
+      {
+        "value": "Wai Yee 2/F",
+        "labelEN": "Wai Yee 2/F",
+        "labelTC": "懷義樓二樓"
+      },
+      {
+        "value": "Wai Yee 3/F",
+        "labelEN": "Wai Yee 3/F",
+        "labelTC": "懷義樓三樓"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "seqNo": 4,
+    "value": "Haven of Hope Hospital",
+    "cluster": "Kowloon East Cluster",
+    "labelEN": "Haven of Hope Hospital",
+    "labelTC": "靈實醫院",
+    "ward": [
+      {
+        "value": "1A",
+        "labelEN": "1A",
+        "labelTC": "1A"
+      },
+      {
+        "value": "1B",
+        "labelEN": "1B",
+        "labelTC": "1B"
+      },
+      {
+        "value": "1C",
+        "labelEN": "1C",
+        "labelTC": "1C"
+      },
+      {
+        "value": "2A",
+        "labelEN": "2A",
+        "labelTC": "2A"
+      },
+      {
+        "value": "2B",
+        "labelEN": "2B",
+        "labelTC": "2B"
+      },
+      {
+        "value": "2F",
+        "labelEN": "2F",
+        "labelTC": "2F"
+      },
+      {
+        "value": "3B",
+        "labelEN": "3B",
+        "labelTC": "3B"
+      },
+      {
+        "value": "3C",
+        "labelEN": "3C",
+        "labelTC": "3C"
+      },
+      {
+        "value": "3E",
+        "labelEN": "3E",
+        "labelTC": "3E"
+      },
+      {
+        "value": "4D",
+        "labelEN": "4D",
+        "labelTC": "4D"
+      },
+      {
+        "value": "Glory",
+        "labelEN": "Glory",
+        "labelTC": "靈豐"
+      },
+      {
+        "value": "Grace",
+        "labelEN": "Grace",
+        "labelTC": "靈恩"
+      },
+      {
+        "value": "Harmony",
+        "labelEN": "Harmony",
+        "labelTC": "靈康"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "seqNo": 5,
+    "value": "Hong Kong Buddhist Hospital",
+    "cluster": "Kowloon Central Cluster",
+    "labelEN": "Hong Kong Buddhist Hospital",
+    "labelTC": "香港佛教醫院",
+    "ward": [
+      {
+        "value": "A1",
+        "labelEN": "A1",
+        "labelTC": "A1"
+      },
+      {
+        "value": "A2",
+        "labelEN": "A2",
+        "labelTC": "A2"
+      },
+      {
+        "value": "A3",
+        "labelEN": "A3",
+        "labelTC": "A3"
+      },
+      {
+        "value": "A4",
+        "labelEN": "A4",
+        "labelTC": "A4"
+      },
+      {
+        "value": "A5",
+        "labelEN": "A5",
+        "labelTC": "A5"
+      },
+      {
+        "value": "A6",
+        "labelEN": "A6",
+        "labelTC": "A6"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "seqNo": 6,
+    "value": "Kowloon Hospital Rehabilitation Building",
+    "cluster": "Kowloon Central Cluster",
+    "labelEN": "Kowloon Hospital Rehabilitation Building",
+    "labelTC": "康復大樓",
+    "ward": [
+      {
+        "value": "2A1",
+        "labelEN": "2A1",
+        "labelTC": "2A1"
+      },
+      {
+        "value": "2A2",
+        "labelEN": "2A2",
+        "labelTC": "2A2"
+      },
+      {
+        "value": "2B1",
+        "labelEN": "2B1",
+        "labelTC": "2B1"
+      },
+      {
+        "value": "2B2",
+        "labelEN": "2B2",
+        "labelTC": "2B2"
+      },
+      {
+        "value": "3A1",
+        "labelEN": "3A1",
+        "labelTC": "3A1"
+      },
+      {
+        "value": "3A2",
+        "labelEN": "3A2",
+        "labelTC": "3A2"
+      },
+      {
+        "value": "3B1",
+        "labelEN": "3B1",
+        "labelTC": "3B1"
+      },
+      {
+        "value": "3B2",
+        "labelEN": "3B2",
+        "labelTC": "3B2"
+      },
+      {
+        "value": "4A1",
+        "labelEN": "4A1",
+        "labelTC": "4A1"
+      },
+      {
+        "value": "4A2",
+        "labelEN": "4A2",
+        "labelTC": "4A2"
+      },
+      {
+        "value": "4B1",
+        "labelEN": "4B1",
+        "labelTC": "4B1"
+      },
+      {
+        "value": "4B2",
+        "labelEN": "4B2",
+        "labelTC": "4B2"
+      },
+      {
+        "value": "5A1",
+        "labelEN": "5A1",
+        "labelTC": "5A1"
+      },
+      {
+        "value": "5A2",
+        "labelEN": "5A2",
+        "labelTC": "5A2"
+      },
+      {
+        "value": "5B1",
+        "labelEN": "5B1",
+        "labelTC": "5B1"
+      },
+      {
+        "value": "5B2",
+        "labelEN": "5B2",
+        "labelTC": "5B2"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "seqNo": 7,
+    "value": "Lai King Building, Princess Margaret Hospital",
+    "cluster": "Kowloon West Cluster",
+    "labelEN": "Lai King Building, Princess Margaret Hospital",
+    "labelTC": "瑪嘉烈醫院荔景大樓",
+    "ward": [
+      {
+        "value": "R4 North Wing",
+        "labelEN": "R4 North Wing",
+        "labelTC": "四樓北翼病房"
+      },
+      {
+        "value": "R4 South Wing",
+        "labelEN": "R4 South Wing",
+        "labelTC": "四樓南翼病房"
+      },
+      {
+        "value": "R5 North Wing",
+        "labelEN": "R5 North Wing",
+        "labelTC": "五樓北翼病房"
+      },
+      {
+        "value": "R5 South Wing",
+        "labelEN": "R5 South Wing",
+        "labelTC": "五樓南翼病房"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "seqNo": 8,
+    "value": "MacLehose Medical Rehabilitation Centre",
+    "cluster": "Hong Kong West Cluster",
+    "labelEN": "MacLehose Medical Rehabilitation Centre",
+    "labelTC": "麥理浩復康院",
+    "ward": [
+      {
+        "value": "GW1",
+        "labelEN": "GW1",
+        "labelTC": "一號普通科病房"
+      },
+      {
+        "value": "GW2",
+        "labelEN": "GW2",
+        "labelTC": "二號普通科病房"
+      },
+      {
+        "value": "NSW",
+        "labelEN": "NSW",
+        "labelTC": "腦神經及脊椎科病房"
+      },
+      {
+        "value": "Single Rooms",
+        "labelEN": "Single Rooms",
+        "labelTC": "私家病房"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "seqNo": 9,
+    "value": "Sha Tin Hospital (except Psychiatric Wards)",
+    "cluster": "New Territories  East Cluster",
+    "labelEN": "Sha Tin Hospital (except Psychiatric Wards)",
+    "labelTC": "沙田醫院（不包括精神科病房）",
+    "ward": [
+      {
+        "value": "4A",
+        "labelEN": "4A",
+        "labelTC": "4A"
+      },
+      {
+        "value": "4B",
+        "labelEN": "4B",
+        "labelTC": "4B"
+      },
+      {
+        "value": "4C",
+        "labelEN": "4C",
+        "labelTC": "4C"
+      },
+      {
+        "value": "4D",
+        "labelEN": "4D",
+        "labelTC": "4D"
+      },
+      {
+        "value": "6A",
+        "labelEN": "6A",
+        "labelTC": "6A"
+      },
+      {
+        "value": "6B",
+        "labelEN": "6B",
+        "labelTC": "6B"
+      },
+      {
+        "value": "6C",
+        "labelEN": "6C",
+        "labelTC": "6C"
+      },
+      {
+        "value": "6D",
+        "labelEN": "6D",
+        "labelTC": "6D"
+      },
+      {
+        "value": "7C",
+        "labelEN": "7C",
+        "labelTC": "7C"
+      },
+      {
+        "value": "7D",
+        "labelEN": "7D",
+        "labelTC": "7D"
+      },
+      {
+        "value": "8C",
+        "labelEN": "8C",
+        "labelTC": "8C"
+      },
+      {
+        "value": "8D",
+        "labelEN": "8D",
+        "labelTC": "8D"
+      },
+      {
+        "value": "9A",
+        "labelEN": "9A",
+        "labelTC": "9A"
+      },
+      {
+        "value": "9B",
+        "labelEN": "9B",
+        "labelTC": "9B"
+      },
+      {
+        "value": "9C",
+        "labelEN": "9C",
+        "labelTC": "9C"
+      },
+      {
+        "value": "9D",
+        "labelEN": "9D",
+        "labelTC": "9D"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "seqNo": 10,
+    "value": "Siu Lam Hospital",
+    "cluster": "New Territories West Cluster",
+    "labelEN": "Siu Lam Hospital",
+    "labelTC": "小欖醫院",
+    "ward": [
+      {
+        "value": "B001",
+        "labelEN": "B001",
+        "labelTC": "B001"
+      },
+      {
+        "value": "B002",
+        "labelEN": "B002",
+        "labelTC": "B002"
+      },
+      {
+        "value": "B003",
+        "labelEN": "B003",
+        "labelTC": "B003"
+      },
+      {
+        "value": "B004",
+        "labelEN": "B004",
+        "labelTC": "B004"
+      },
+      {
+        "value": "B101",
+        "labelEN": "B101",
+        "labelTC": "B101"
+      },
+      {
+        "value": "B102",
+        "labelEN": "B102",
+        "labelTC": "B102"
+      },
+      {
+        "value": "B103",
+        "labelEN": "B103",
+        "labelTC": "B103"
+      },
+      {
+        "value": "B104",
+        "labelEN": "B104",
+        "labelTC": "B104"
+      },
+      {
+        "value": "B201",
+        "labelEN": "B201",
+        "labelTC": "B201"
+      },
+      {
+        "value": "B202",
+        "labelEN": "B202",
+        "labelTC": "B202"
+      },
+      {
+        "value": "B203",
+        "labelEN": "B203",
+        "labelTC": "B203"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "seqNo": 11,
+    "value": "Tai Po Hospital (except Psychiatric Wards)",
+    "cluster": "New Territories  East Cluster",
+    "labelEN": "Tai Po Hospital (except Psychiatric Wards)",
+    "labelTC": "大埔醫院（不包括精神科病房）",
+    "ward": [
+      {
+        "value": "3AL",
+        "labelEN": "Department of Medicine & Geriatrics 3AL",
+        "labelTC": "內科及老人科 3AL"
+      },
+      {
+        "value": "3AR",
+        "labelEN": "Department of Medicine & Geriatrics 3AR",
+        "labelTC": "內科及老人科 3AR"
+      },
+      {
+        "value": "4AL",
+        "labelEN": "Department of Medicine & Geriatrics 4AL",
+        "labelTC": "內科及老人科 4AL"
+      },
+      {
+        "value": "4AR",
+        "labelEN": "Department of Medicine & Geriatrics 4AR",
+        "labelTC": "內科及老人科 4AR"
+      },
+      {
+        "value": "4BL",
+        "labelEN": "Department of Medicine & Geriatrics 4BL",
+        "labelTC": "內科及老人科 4BL"
+      },
+      {
+        "value": "4BR",
+        "labelEN": "Department of Medicine & Geriatrics 4BR",
+        "labelTC": "內科及老人科 4BR"
+      },
+      {
+        "value": "4CL",
+        "labelEN": "Department of Medicine & Geriatrics 4CL",
+        "labelTC": "內科及老人科 4CL"
+      },
+      {
+        "value": "4DL",
+        "labelEN": "Department of Medicine & Geriatrics 4DL",
+        "labelTC": "內科及老人科 4DL"
+      },
+      {
+        "value": "4DR",
+        "labelEN": "Department of Medicine & Geriatrics 4DR",
+        "labelTC": "內科及老人科 4DR"
+      },
+      {
+        "value": "4CR",
+        "labelEN": "Department of Medicine & Geriatrics 4CR (open on 5-Oct-2020)",
+        "labelTC": "內科及老人科 4CR (open on 5-Oct-2020)"
+      },
+      {
+        "value": "3BL",
+        "labelEN": "Department of Orthopaedic Rehabilitation 3BL",
+        "labelTC": "骨科康復部 3BL"
+      },
+      {
+        "value": "3BR",
+        "labelEN": "Department of Orthopaedic Rehabilitation 3BR",
+        "labelTC": "骨科康復部 3BR"
+      },
+      {
+        "value": "3CL",
+        "labelEN": "Department of Orthopaedic Rehabilitation 3CL",
+        "labelTC": "骨科康復部 3CL"
+      },
+      {
+        "value": "3CR",
+        "labelEN": "Department of Orthopaedic Rehabilitation 3CR",
+        "labelTC": "骨科康復部 3CR"
+      },
+      {
+        "value": "3DL",
+        "labelEN": "Department of Orthopaedic Rehabilitation 3DL",
+        "labelTC": "骨科康復部 3DL"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "seqNo": 12,
+    "value": "The Duchess of Kent Children's Hospital at Sandy Bay",
+    "cluster": "Hong Kong West Cluster",
+    "labelEN": "The Duchess of Kent Children's Hospital at Sandy Bay",
+    "labelTC": "大口環根德公爵夫人兒童醫院",
+    "ward": [
+      {
+        "value": "W12",
+        "labelEN": "W12",
+        "labelTC": "一、二號病房"
+      },
+      {
+        "value": "W34",
+        "labelEN": "W34",
+        "labelTC": "三、四號病房"
+      },
+      {
+        "value": "W56",
+        "labelEN": "W56",
+        "labelTC": "五、六號病房"
+      },
+      {
+        "value": "W78",
+        "labelEN": "W78",
+        "labelTC": "七、八號病房"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "seqNo": 13,
+    "value": "Tin Ka Ping Infirmary, Pok Oi Hospital",
+    "cluster": "New Territories West Cluster",
+    "labelEN": "Tin Ka Ping Infirmary, Pok Oi Hospital",
+    "labelTC": "博愛醫院田家炳護養院",
+    "ward": [
+      {
+        "value": "E1",
+        "labelEN": "E1",
+        "labelTC": "E1"
+      },
+      {
+        "value": "E2",
+        "labelEN": "E2",
+        "labelTC": "E2"
+      },
+      {
+        "value": "E3",
+        "labelEN": "E3",
+        "labelTC": "E3"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "seqNo": 14,
+    "value": "Tung Wah Group of Hospitals Fung Yiu King Hospital",
+    "cluster": "Hong Kong West Cluster",
+    "labelEN": "Tung Wah Group of Hospitals Fung Yiu King Hospital",
+    "labelTC": "東華三院馮堯敬醫院",
+    "ward": [
+      {
+        "value": "1A",
+        "labelEN": "1A",
+        "labelTC": "1A"
+      },
+      {
+        "value": "1B",
+        "labelEN": "1B",
+        "labelTC": "1B"
+      },
+      {
+        "value": "2A",
+        "labelEN": "2A",
+        "labelTC": "2A"
+      },
+      {
+        "value": "2B",
+        "labelEN": "2B",
+        "labelTC": "2B"
+      },
+      {
+        "value": "3A",
+        "labelEN": "3A",
+        "labelTC": "3A"
+      },
+      {
+        "value": "3B",
+        "labelEN": "3B",
+        "labelTC": "3B"
+      },
+      {
+        "value": "4A",
+        "labelEN": "4A",
+        "labelTC": "4A"
+      },
+      {
+        "value": "4B",
+        "labelEN": "4B",
+        "labelTC": "4B"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "seqNo": 15,
+    "value": "Tung Wah Group of Hospitals Wong Tai Sin Hospital",
+    "cluster": "Kowloon Central Cluster",
+    "labelEN": "Tung Wah Group of Hospitals Wong Tai Sin Hospital",
+    "labelTC": "東華三院黃大仙醫院",
+    "ward": [
+      {
+        "value": "1F",
+        "labelEN": "1F",
+        "labelTC": "1F"
+      },
+      {
+        "value": "2A",
+        "labelEN": "2A",
+        "labelTC": "2A"
+      },
+      {
+        "value": "2F",
+        "labelEN": "2F",
+        "labelTC": "2F"
+      },
+      {
+        "value": "2FC",
+        "labelEN": "2FC",
+        "labelTC": "2FC"
+      },
+      {
+        "value": "3AB",
+        "labelEN": "3AB",
+        "labelTC": "3AB"
+      },
+      {
+        "value": "3C",
+        "labelEN": "3C",
+        "labelTC": "3C"
+      },
+      {
+        "value": "3F",
+        "labelEN": "3F",
+        "labelTC": "3F"
+      },
+      {
+        "value": "4A",
+        "labelEN": "4A",
+        "labelTC": "4A"
+      },
+      {
+        "value": "4B",
+        "labelEN": "4B",
+        "labelTC": "4B"
+      },
+      {
+        "value": "4C",
+        "labelEN": "4C",
+        "labelTC": "4C"
+      },
+      {
+        "value": "4EF",
+        "labelEN": "4EF",
+        "labelTC": "4EF"
+      },
+      {
+        "value": "4L",
+        "labelEN": "4L",
+        "labelTC": "4L"
+      },
+      {
+        "value": "4V",
+        "labelEN": "4V",
+        "labelTC": "4V"
+      },
+      {
+        "value": "5A",
+        "labelEN": "5A",
+        "labelTC": "5A"
+      },
+      {
+        "value": "5C",
+        "labelEN": "5C",
+        "labelTC": "5C"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "seqNo": 17,
+    "value": "Wong Chuk Hang Hospital",
+    "cluster": "Hong Kong East Cluster",
+    "labelEN": "Wong Chuk Hang Hospital",
+    "labelTC": "黃竹坑醫院",
+    "ward": [
+      {
+        "value": "2A",
+        "labelEN": "2A",
+        "labelTC": "2A"
+      },
+      {
+        "value": "2B",
+        "labelEN": "2B",
+        "labelTC": "2B"
+      },
+      {
+        "value": "3A",
+        "labelEN": "3A",
+        "labelTC": "3A"
+      },
+      {
+        "value": "3B",
+        "labelEN": "3B",
+        "labelTC": "3B"
+      },
+      {
+        "value": "4A",
+        "labelEN": "4A",
+        "labelTC": "4A"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "seqNo": 16,
+    "value": "Tung Wah Hospital",
+    "cluster": "Hong Kong West Cluster",
+    "labelEN": "Tung Wah Hospital",
+    "labelTC": "東華醫院",
+    "ward": [
+      {
+        "value": "SCU",
+        "labelEN": "SCU",
+        "labelTC": "特別治療部"
+      },
+      {
+        "value": "C4",
+        "labelEN": "Ward C4",
+        "labelTC": "C4 外科病房"
+      },
+      {
+        "value": "C6",
+        "labelEN": "Ward C6",
+        "labelTC": "C6 外科病房"
+      },
+      {
+        "value": "C7",
+        "labelEN": "Ward C7",
+        "labelTC": "C7 外科病房"
+      },
+      {
+        "value": "C8",
+        "labelEN": "Ward C8",
+        "labelTC": "C8 腎科病房"
+      },
+      {
+        "value": "L2",
+        "labelEN": "Ward L2",
+        "labelTC": "L2 內科病房"
+      },
+      {
+        "value": "L6",
+        "labelEN": "Ward L6",
+        "labelTC": "L6 內科病房"
+      },
+      {
+        "value": "Y3",
+        "labelEN": "Ward Y3",
+        "labelTC": "Y3 內科病房"
+      },
+      {
+        "value": "Y4",
+        "labelEN": "Ward Y4",
+        "labelTC": "Y4 內科病房"
+      },
+      {
+        "value": "Y5",
+        "labelEN": "Ward Y5",
+        "labelTC": "Y5 內科病房"
+      },
+      {
+        "value": "Y6",
+        "labelEN": "Ward Y6",
+        "labelTC": "Y6 內科病房"
+      },
+      {
+        "value": "Y7",
+        "labelEN": "Ward Y7",
+        "labelTC": "Y7 內科病房"
+      },
+      {
+        "value": "Y8",
+        "labelEN": "Ward Y8",
+        "labelTC": "Y8 內科病房"
+      }
+    ]
+  }
+]

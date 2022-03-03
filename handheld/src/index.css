@@ -1,0 +1,35 @@
+
+
+body {
+  margin: 0;
+  font-family: 'PingFangTC', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html, body{
+  height: 100%;
+}
+
+
+@font-face {
+  font-family: 'PingFangHK-Semibold';
+  src: local('PingFangHK-Semibold'), url(./font/PingFangHK-Semibold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PingFangHK-Regular';
+  src: local('PingFangHK-Regular'), url(./font/PingFangHK-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PingFangHK-Medium';
+  src: local('PingFangHK-Medium'), url(./font/PingFangHK-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PingFangTC';
+  src: local('PingFangHK-Medium'), url(./font/PingFangHK-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: local('MyriadPro-Regular'), url(./font/MyriadPro-Regular.ttf) format('truetype');
+
+}

@@ -1,0 +1,28 @@
+FROM __OPENSHIFT_BASE_IMAGE__
+
+ARG API_URL="https://java-vis-backend-bs-corp-vis-dev-1.cldpaast71.server.ha.org.hk"
+ARG LOGIN_DOMAIN=CORPDEV
+ARG ENV_REGION=DEV
+ARG BSD_URL="http://minerva/bsd_sit/hotline/Logon.asp"
+ARG PROXY="http://proxy.ha.org.hk:8080"
+
+ENV REACT_APP_API_URL ${API_URL}
+ENV REACT_APP_LOGIN_DOMAIN ${LOGIN_DOMAIN}
+ENV REACT_APP_ENV ${ENV_REGION}
+ENV REACT_APP_BSD_URL ${BSD_URL}
+ENV PROXY ${PROXY}
+
+WORKDIR /opt/build-root
+COPY . /opt/build-root
+USER root
+RUN chgrp -R 0 /opt/build-root/ && \
+    chmod -R g=u /opt/build-root/
+
+ENV HTTPS_PROXY $PROXY
+ENV NO_PROXY "localhost,*.hadev.org.hk,*.ha.org.hk"
+
+RUN npm install -s --only=production && \
+    npm run build
+
+ENV HTTPS_PROXY=
+ENV NO_PROXY=

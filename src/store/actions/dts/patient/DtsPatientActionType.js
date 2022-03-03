@@ -1,0 +1,12 @@
+const PRE = 'DTS_PATIENT';
+
+export const OPEN_PREVIEW_WINDOW = `${PRE}_OPEN_PREVIEW_WINDOW`;
+export const RESET_ALL = `${PRE}_RESET_ALL`;
+export const UPDATE_STATE = `${PRE}_UPDATE_STATE`;
+export const SEARCH_PATIENT = `${PRE}_SEARCH_PATIENT`;
+
+//SET
+export const SET_ADDRESS_LABEL = `${PRE}_SET_ADDRESS_LABEL`;
+
+//SAGA
+export const SEARCH_PATIENT_SAGA = `${PRE}_SEARCH_PATIENT_SAGA`;

@@ -1,0 +1,5 @@
+const PREFFIX = 'DTS_TREATMENT_PLAN';
+
+//SET
+export const SET_REDIRECT = `${PREFFIX}_SET_REDIRECT`;
+

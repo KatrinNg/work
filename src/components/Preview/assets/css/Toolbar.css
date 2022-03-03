@@ -1,0 +1,142 @@
+.Toolbar {
+    /* position: fixed; */
+    /* right: 40px; */
+    top: 0;
+    width: 100%;
+    /* height: 32px; */
+    /* background-color:#222; */
+    /* border: 2px solid #888; */
+    /* border-radius: 7px; */
+    /* padding: 2px; */
+    z-index: 10;
+    box-shadow: inset 0 1px 1px hsla(0,0%,0%,.15), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
+    position: relative;
+    height: 32px;
+    background-color: #474747;
+}
+.Toolbar[dir='ltr'] .toolbarBtn, .Toolbar[dir='ltr'] .ZoomPercent, .Toolbar[dir='ltr'] .splitBtnSeparator {
+    border-radius: 0;
+    float: left;
+}
+.toolbarBtn::before, .secondaryToolbarBtn::before {
+    position: absolute;
+    display: inline-block;
+    top: 4px;
+    left: 7px;
+}
+.toolbarBtn[disabled]{
+    opacity: 0.5;
+}
+.Toolbar .LeftFunction .toolbarBtn,
+.Toolbar .ZoomFunction .toolbarBtn,
+.Toolbar .RightFunction .toolbarBtn{
+    position: relative;
+}
+.splitBtnSeparator{
+    padding: 8px 0;
+    width: 1px;
+    background-color: hsla(0,0%,0%,.5);
+    z-index: 99;
+    box-shadow: 0 0 0 1px hsla(0,0%,100%,.08);
+    display: inline-block;
+    margin: 5px 0;
+}
+.Toolbar .toolbarBtn{
+    min-width: 16px;
+    padding: 2px 6px 0;
+    border-radius: 2px;
+    color: hsla(0,0%,100%,.8);
+    font-size: 12px;
+    line-height: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    /* cursor: default; */
+    transition-property: background-color, border-color, box-shadow;
+    transition-duration: 150ms;
+    transition-timing-function: ease;
+
+    border: 0 none;
+    background: none;
+    width: 32px;
+    height: 25px;
+
+    margin: 3px 2px 4px 0;
+}
+.Toolbar .LeftFunction{
+    float: left;
+}
+.RightFunction .prevPage::before{
+    content: url(../images/toolbarButton-pageUp.png);
+}
+
+.RightFunction .nextPage::before{
+    content: url(../images/toolbarButton-pageDown.png);    
+}
+
+.RightFunction .firstPage::before{
+    content: url(../images/secondaryToolbarButton-firstPage.png);
+}
+
+.RightFunction .lastPage::before{
+    content: url(../images/secondaryToolbarButton-lastPage.png);    
+}
+
+.Toolbar .ZoomFunction{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Toolbar .ZoomOut::before {
+    content: url(../images/toolbarButton-zoomOut.png);
+}
+.Toolbar .ZoomIn::before {
+    content: url(../images/toolbarButton-zoomIn.png);
+}
+
+/* .Toolbar .ZoomIn,
+.Toolbar .ZoomOut,
+.Toolbar .Print {
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #FE8;
+    width: 32px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin: 2px;
+} */
+.Toolbar .ZoomPercent {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    width: 65px;
+    margin: 3px 2px 4px 0;
+    padding: 2px 6px;
+    /* margin: 2px; */
+}
+
+.Toolbar .RightFunction{
+    float: right;
+}
+.Toolbar .Print{
+    position: relative;
+    width: 32px;
+    margin: 2px 4px 2px 0;
+}
+.toolbarBtn.Print::before, .secondaryToolbarButton.Print::before {
+    content: url(../images/toolbarButton-print.png);
+}
+
+@media all and (max-width: 900px) {
+    .Toolbar .ZoomFunction{
+        position: relative;
+        left: 0;
+        transform: none;
+    }
+  }
+  

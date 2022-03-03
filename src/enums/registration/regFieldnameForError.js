@@ -1,0 +1,73 @@
+const RegFieldnameForError = {
+    //Main
+    hkid: 'HKIC',
+    ehrPatientId: 'eHR Number',
+    docTypeCd: 'Document Type',
+    otherDocNo: 'Document Number',
+    engSurname: 'Surname',
+    engGivename: 'Given Name',
+    nameChi: '中文姓名',
+    birthPlaceCd: 'Birth Place',
+    ccCode1: '中文電碼',
+    ccCode2: '中文電碼',
+    ccCode3: '中文電碼',
+    ccCode4: '中文電碼',
+    ccCode5: '中文電碼',
+    ccCode6: '中文電碼',
+    otherName:'Other Name',
+    dob:'Date of Birth',
+    exactDobCd:'Date of Birth',
+    countryCd: 'Country Code of Phone',
+
+    //Contact
+    emailAddress: 'Email',
+    room: 'Room/Flat',
+    floor: 'Floor',
+    block: 'Block',
+    building: 'Building',
+    estate: 'Estate/Village',
+    streetNo: 'Street No.',
+    streetName: 'Street/Road',
+    postOfficeBoxNo: 'Post Office Box No.',
+    postOfficeName: 'Post Office Name',
+    postOfficeRegion: 'Region',
+    district : 'District',
+    subDistrict : 'Sub District',
+    phoneList:'Phone',
+    //patientPhones_areacd:'Phone area code',
+
+    //Contact Person
+    //contactPerPhone_areacd:'Contact person area code',
+    contactPer_engSurname: 'Contact person Surname',
+    contactPer_engGivename: 'Contact person Given Name',
+    contactPer_namechi: 'Contact person 中文姓名',
+    contactPer_emailAddress: 'Contact person Email',
+    contactPer_room: 'Contact person Room/Flat',
+    contactPer_floor: 'Contact person Floor',
+    contactPer_block: 'Contact person Block',
+    contactPer_building: 'Contact person Building',
+    contactPer_relationshipCd: 'Contact person Relationship',
+    contactPer_districtCd: 'Contact person District',
+    contactPer_subDistrictCd: 'Contact person Sub District',
+    contactPer_estateLot:'Contact person Estate/Lot',
+    contactPer_streetNumber: 'Contact person Street No.',
+    contactPer_street: 'Contact person Street/Road.',
+    contactPer_region: 'Contact person Region',
+    contactPer_mobilePhone: 'Contact person Mobile Phone',
+    contactPer_otherPhone: 'Contact person Other Phone',
+
+    //Social Data
+    ethnicityCd:'Ethnicity',
+    maritalStatusCd:'Marital Status',
+    religionCd:'Religion',
+    occupationCd:'Occupation',
+    translationLangCd:'Translation Language',
+    eduLevelCd:'Education Level',
+    govDptCd:'Government Department',
+    rank:'Rank',
+
+    userId:'userId',
+    clinicCd:'clinicCd'
+};
+
+export default RegFieldnameForError;

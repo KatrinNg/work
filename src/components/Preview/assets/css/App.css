@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  /* height: 100vh; */
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 5px;
+  color: white;
+}
+
+.App-body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 32px;
+  bottom: 0;
+}
+
+.App-body .pdfViewer .page{
+  box-sizing: initial;
+}

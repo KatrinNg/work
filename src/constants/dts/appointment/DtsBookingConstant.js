@@ -1,0 +1,53 @@
+const DTS_BOOKING_MODE_APPT = 'singleBooking';
+const DTS_BOOKING_MULTIPLE_MODE = 'multipleBooking';
+const DTS_BOOKING_EXPRESS_MODE = 'expressBooking';
+const DTS_BOOKING_MODE_UPDATE_APPT = 'updateBooking';
+const DTS_BOOKING_MODE_RESCHEDULE_APPT = 'rescheduleBooking';
+const DTS_BOOKING_MODE_EMPTY_TIMESLOT = 'emptyTimeslot';
+
+const DTS_APPOINTMENT_DATE               = 'typeDate';
+const DTS_APPOINTMENT_START_TIME         = 'typeStartTime';
+const DTS_APPOINTMENT_DURATION           = 'typeDuration';
+const DTS_APPOINTMENT_SURGERY            = 'typeSurgery';
+const DTS_APPOINTMENT_ENCTR_TYPE         = 'typeEncounterType';
+const DTS_APPOINTMENT_JUSTIFICATION      = 'typeJustification';
+const DTS_APPOINTMENT_SPECIAL_REQUEST    = 'typeSpecialRequest';
+const DTS_APPOINTMENT_REASON_TYPE        = 'typeReasonType';
+const DTS_APPOINTMENT_OTHER_REASON       = 'typeOtherReason';
+const DTS_APPOINTMENT_VALUE              = 'typeValue';
+
+const DTS_APPOINTMENT_EMPTY_INPUT_MSG = {
+    [DTS_APPOINTMENT_REASON_TYPE]   : 'Reason cannot be empty.',
+    [DTS_APPOINTMENT_OTHER_REASON]  : 'Other reason cannot be empty.',
+    [DTS_APPOINTMENT_VALUE]         : 'Value cannot be empty'
+};
+
+const DTS_APPOINTMENT_TYPE_CD_CANCEL = 'D';
+
+const DTS_DAILY_VIEW_HISTORY = 'Daily view navigation history';
+const DTS_URGENT_APPOINTMENT = 'Urgent appoitment';
+const DTS_GP_APPOINTMENT = 'GP appointment';
+
+export {
+    DTS_BOOKING_MODE_APPT,
+    DTS_BOOKING_MODE_EMPTY_TIMESLOT,
+    DTS_BOOKING_MULTIPLE_MODE,
+    DTS_BOOKING_EXPRESS_MODE,
+    DTS_BOOKING_MODE_UPDATE_APPT,
+    DTS_BOOKING_MODE_RESCHEDULE_APPT,
+    DTS_APPOINTMENT_DATE,
+    DTS_APPOINTMENT_START_TIME,
+    DTS_APPOINTMENT_DURATION,
+    DTS_APPOINTMENT_SURGERY,
+    DTS_APPOINTMENT_ENCTR_TYPE,
+    DTS_APPOINTMENT_JUSTIFICATION,
+    DTS_APPOINTMENT_SPECIAL_REQUEST,
+    DTS_APPOINTMENT_REASON_TYPE,
+    DTS_APPOINTMENT_OTHER_REASON,
+    DTS_APPOINTMENT_VALUE,
+    DTS_APPOINTMENT_EMPTY_INPUT_MSG,
+    DTS_APPOINTMENT_TYPE_CD_CANCEL,
+    DTS_DAILY_VIEW_HISTORY,
+    DTS_URGENT_APPOINTMENT,
+    DTS_GP_APPOINTMENT
+};

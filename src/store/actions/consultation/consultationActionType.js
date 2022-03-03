@@ -1,0 +1,5 @@
+const PRE = 'CONSULTATION';
+export const RESET_ALL = `${PRE}_RESET_ALL`;
+export const UPDATE_STATE = `${PRE}_UPDATE_STATE`;
+export const GET_PATIENT_QUEUE = `${PRE}_GET_PATIENT_QUEUE`;
+export const PUT_PATIENT_QUEUE = `${PRE}_PUT_PATIENT_QUEUE`;

@@ -1,0 +1,3 @@
+const PRE = 'MRAM_EYES';
+
+export const INIT_MRAM_EYES_FIELD_VALUE = `${PRE}_INIT_MRAM_EYES_FIELD_VALUE`;

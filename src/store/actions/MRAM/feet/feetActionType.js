@@ -1,0 +1,3 @@
+const PRE = 'MRAM_FEET';
+
+export const INIT_MRAM_FEET_FIELD_VALUE = `${PRE}_MRAM_FEET_FIELD_VALUE`;

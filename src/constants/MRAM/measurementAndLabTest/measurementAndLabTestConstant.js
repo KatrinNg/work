@@ -1,0 +1,138 @@
+const MRAM_MEASUREMENTS_PREFIX = 'mesm';
+const MRAM_LABTEST_PREFIX = 'melt';
+
+const MRAM_MEASUREMENTS_ID = {
+  RIGHT_SITTING_SYSTOLIC_BP :   '37',
+  RIGHT_SITTING_DIASTOLIC_BP : '38',
+  LEFT_SITTING_SYSTOLIC_BP : '39',
+  LEFT_SITTING_DIASTOLIC_BP : '40',
+  RIGHT_PULSE : '41',
+  LEFT_PULSE : '42',
+  BODY_WEIGHT : '43',
+  BODY_HEIGHT : '44',
+  WAIST : '45',
+  HIP : '46',
+  PERIODONTITIS : '47',
+  ECG : '48',
+  ECG_DESCRIPTION : '49',
+  BMI : '213',
+  WHR : '214'
+};
+
+const MRAM_LABTEST_ID = {
+ALT : '204',
+LAST_RETRIEVAL : '50',
+HBA1C : '51',
+FASTING_GLUCOSE : '52',
+TOTAL_CHOLESTEROL : '53',
+LDL_C : '54',
+HDL_C : '55',
+TRIGLYCERIDES : '56',
+SERUM_K : '57',
+SERUM_CREATININE : '58',
+ESTIMATED_GFR : '59',
+CREATININE_CLEARANCE :'60',
+PROTEINURIA : '61',
+ALBUMIN_EXRETION_RATE :'62',
+URINE_ALB_AND_CR_RATIO :'63',
+URINE_ALB_CONCENTRATION :'64',
+URINE_PROTEIN_ANd_CR_RATIO :'65',
+HB :'66',
+HCT : '67'
+
+};
+
+const MRAM_MEASUREMENTANDLABTEST_ID_MAP = new Map([
+  [MRAM_MEASUREMENTS_PREFIX,MRAM_MEASUREMENTS_ID],
+  [MRAM_LABTEST_PREFIX,MRAM_LABTEST_ID]
+]);
+
+// const ID_SET = new Set([
+//   MRAM_MEASUREMENTS_ID.RIGHT_SITTING_SYSTOLIC_BP
+// ]);
+
+const RANGE_BEST_BLOOD_PRESSURE_SYSTOLIC = {
+  minVal: 30,
+  maxVal: 300
+};
+
+const RANGE_BEST_BLOOD_PRESSURE_DIASTOLIC = {
+  minVal: 30,
+  maxVal: 300
+};
+
+const RANGE_BEST_BLOOD_PRESSURE = {
+  minVal: 30,
+  maxVal: 9999999999
+};
+
+const RANG_BEST_HEIGHT = {
+  minVal: 0.001,
+  maxVal: 2.999
+};
+
+const RANGE_BEST_WAIST_MALE = {
+  minVal: 0,
+  maxVal: 89.999
+};
+
+const RANGE_BEST_WAIST_FEMALE = {
+  minVal: 0,
+  maxVal: 79.999
+};
+
+const ACTION_TYPE = {
+  INSERT: 'I',
+  UPDATE: 'U',
+  DELETE: 'D'
+};
+
+const RADIO_OPTION_1 = [
+  {
+    label:'Yes',
+    value:'Yes'
+  },{
+    label:'No',
+    value:'No'
+  },{
+    label:'Not known',
+    value:'Not known'
+  }
+];
+
+const RADIO_OPTION_2 = [
+  {
+    label:'Normal',
+    value:'Normal'
+  },{
+    label:'Abnormal',
+    value:'Abnormal'
+  },{
+    label:'Other',
+    value:'Other'
+  }
+];
+
+const BMI_RANGE = {
+  OVERWEIGHT: 23,
+  OPTIMAL_WEIGHT: 18.5,
+  OBESITY_ERROR: 10
+};
+
+export {
+  BMI_RANGE,
+  ACTION_TYPE,
+  MRAM_MEASUREMENTANDLABTEST_ID_MAP,
+  MRAM_LABTEST_PREFIX,
+  MRAM_MEASUREMENTS_PREFIX,
+  MRAM_MEASUREMENTS_ID,
+  MRAM_LABTEST_ID,
+  RANGE_BEST_BLOOD_PRESSURE,
+  RANGE_BEST_WAIST_MALE,
+  RANGE_BEST_WAIST_FEMALE,
+  RADIO_OPTION_1,
+  RADIO_OPTION_2,
+  RANG_BEST_HEIGHT,
+  RANGE_BEST_BLOOD_PRESSURE_SYSTOLIC,
+  RANGE_BEST_BLOOD_PRESSURE_DIASTOLIC
+};

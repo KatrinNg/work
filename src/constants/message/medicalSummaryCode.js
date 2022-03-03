@@ -1,0 +1,3 @@
+export const MEDICAL_SUMMARY_CODE = {
+  CLOSE_DIALOG_COMFIRM:'101004'
+};

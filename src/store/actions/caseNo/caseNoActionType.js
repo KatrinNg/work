@@ -1,0 +1,35 @@
+const PRE = 'CASENO';
+
+export const OPEN_CASENO_DIALOG = `${PRE}_OPEN_CASENO_DIALOG`;
+export const CLOSE_CASENO_DIALOG = `${PRE}_CLOSE_CASENO_DIALOG`;
+export const UPDATE_CASENO_FORM = `${PRE}_UPDATE_CASENO_FORM`;
+export const UPDATE_STATE = `${PRE}_UPDATE_STATE`;
+export const SAVE_CASENO = `${PRE}_SAVE_CASENO`;
+export const LIST_CASE_PREFIX = `${PRE}_LIST_CASE_PREFIX`;
+export const PUT_CASE_PREFIX = `${PRE}_PUT_CASE_PREFIX`;
+export const PUT_ENCOUNTER_TYPE_LIST = `${PRE}_PUT_ENCOUNTER_TYPE_LIST`;
+export const GET_ENCOUNTER_GROUP = `${PRE}_GET_ENCOUNTER_GROUP`;
+//handle select case
+export const SELECT_CASE_TRIGGER=`${PRE}_SELECT_CASE_TRIGGER`;
+
+export const PUT_CODE_LIST = `${PRE}_PUT_CODE_LIST`;
+
+export const CASENO_DIALOG_OK = `${PRE}_CASENO_DIALOG_OK`;
+export const CASENO_DIALOG_CANCEL = `${PRE}_CASENO_DIALOG_CANCEL`;
+
+//alias rules
+export const LIST_ALIAS_RULES = `${PRE}_LIST_ALIAS_RULES`;
+export const PUT_ALIAS_RULES = `${PRE}_PUT_ALIAS_RULES`;
+
+//save case no with alias
+export const SAVE_CASE_NO_WITH_ALIAS=`${PRE}_SAVE_CASE_NO_WITH_ALIAS`;
+
+//update encounter types
+export const GET_ENCOUNTER_TYPE_LIST_BY_SITE=`${PRE}_GET_ENCOUNTER_TYPE_LIST_BY_SITE`;
+
+//encounter group
+export const LIST_ENCOUNTER_GROUP=`${PRE}_LIST_ENCOUNTER_GROUP`;
+export const PUT_ENCOUNTER_GROUP_LIST=`${PRE}_PUT_ENCOUNTER_GROUP_LIST`;
+
+//list patient all case
+export const LIST_PATIENT_CASE=`${PRE}_LIST_PATIENT_CASE`;

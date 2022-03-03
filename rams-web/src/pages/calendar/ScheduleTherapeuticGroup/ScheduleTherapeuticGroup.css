@@ -1,0 +1,21 @@
+.recurrent-custom-form-label-class{
+    width: calc(50% - 7px);
+    height: 45px;
+    min-width: 147px;
+    background: #f8f6f6;
+    border-radius: 10px;
+    margin: 0 7px 5px 0 !important;
+    padding-left: 15px;
+    color: #000;
+    font-family: PingFangTC;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+}
+.recurrent-custom-form-label-class:hover{
+    /* background: #e6fcf6; */
+}
+.select-label-class{
+    background: #e6fcf6;
+}

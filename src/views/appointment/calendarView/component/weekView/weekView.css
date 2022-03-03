@@ -1,0 +1,17 @@
+#calendarCalendarDataGrid .ag-theme-balham .ag-header-row .ag-header-cell:nth-child(2){
+    color:red !important
+}
+
+#calendarCalendarDataGrid .ag-theme-balham .ag-cell-wrapper{
+    width:108%;
+    position: relative;
+    left:-4%;
+}
+#calendarCalendarDataGrid  .ag-theme-balham  .ag-row-first{
+    position: absolute;
+    z-index:999 ;
+}
+/*#calendarCalendarDataGrid  .ag-theme-balham .ag-row{*/
+    /*position: absolute;*/
+    /*z-index:999 ;*/
+/*}*/

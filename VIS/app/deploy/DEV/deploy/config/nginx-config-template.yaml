@@ -1,0 +1,26 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+labels:
+  template: cicd-vis-router-svc-nginx-config-configmap-template
+message: cicd-vis-router-svc-nginx-config-configmap-template
+metadata:
+  annotations:
+    description: cicd-vis-router-svc-nginx-config-configmap-template
+    iconClass: icon-nginx
+    openshift.io/display-name: cicd-vis-router-svc-nginx-config-configmap-template
+    openshift.io/provider-display-name: VIS
+    tags: vis
+  name: cicd-vis-router-svc-nginx-config-configmap-template
+objects:
+- apiVersion: v1
+  kind: ConfigMap
+  metadata:
+    name: cicd-vis-router-svc-nginx-config
+  data:
+    nginx.conf: |-
+      ${{nginxconf}}
+parameters:
+- description: nginx.conf
+  displayname: nginxconf
+  name: nginxconf
+  required: true

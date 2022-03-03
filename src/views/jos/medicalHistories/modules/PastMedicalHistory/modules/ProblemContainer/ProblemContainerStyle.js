@@ -1,0 +1,91 @@
+import { getState } from '../../../../../../../store/util';
+const { color, font } = getState(state => state.cimsStyle) || {};
+
+export const styles = {
+  fieldSetWrapper: {
+    background: color.cimsBackgroundColor,
+    border: '2px solid #b8bcb9',
+    borderRadius: '5px',
+    padding: '3px 0 0 0',
+    width: '100%',
+    display: 'flex'
+  },
+  legend: {
+    fontWeight: 'bold',
+    fontSize: font.fontSize
+  },
+  cardContainer: {
+    overflowY: 'hidden',
+    columnCount: '4',
+    height: 300,
+    columnGap: '10px'
+  },
+  card: {
+    marginBottom: '10px',
+    breakInside: 'avoid',
+    boxSizing: 'border-box',
+    boxShadow: 'none',
+    border: '1px solid #0579C8'
+  },
+  cardList: {
+    display: 'flex',
+    paddingRight: '8px'
+  },
+  cardColumn: {
+    paddingLeft: '10px',
+    backgroundClip: 'padding-box'
+  },
+  cardContent: {
+    padding: '5px 10px',
+    backgroundColor: color.cimsBackgroundColor,
+    color: color.cimsTextColor,
+    '&:last-child':{
+      paddingBottom: '5px'
+    }
+  },
+  groupNameTitle: {
+    cursor: 'default',
+    fontSize: font.fontSize,
+    fontWeight: 'bold',
+    color: color.cimsTextColor
+  },
+  tooltip: {
+    backgroundColor: '#6E6E6E',
+    fontSize: '14px',
+    fontFamily: font.fontFamily,
+    maxWidth: 800,
+    wordBreak: 'break-word'
+  },
+  textDisplayTitle: {
+    fontSize: font.fontSize,
+    fontFamily: font.fontFamily,
+    '&:hover':{
+      cursor: 'pointer',
+      color:'#0579C8'
+    }
+  },
+  textDisplayDefaultTitle: {
+    fontSize: font.fontSize,
+    fontFamily: font.fontFamily,
+    '&:hover':{
+      cursor: 'default',
+      color:'#0579C8'
+    }
+  },
+  accidentInput: {
+    borderBottom: '1px solid rgba(0, 0, 0, 0.8)',
+    fontSize: font.fontSize,
+    fontFamily: font.fontFamily,
+    color: color.cimsTextColor
+  },
+  myMasonryGrid: {
+    display: 'flex',
+    width: 'auto',
+    paddingRight: 8
+    // paddingRight: 10
+  },
+  myMasonryGridColumn: {
+    paddingLeft: 10,
+    backgroundClip: 'padding-box'
+  }
+};

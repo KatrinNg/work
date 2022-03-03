@@ -1,0 +1,15 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: {deploy:appname}
+  name: {deploy:appname}
+spec:
+    host: {deploy:appname}-{deploy:namespace}.cldpaast71.server.ha.org.hk
+    port:
+        targetPort: 8080-tcp
+    to:
+        kind: Service
+        name: cicd-{deploy:appname}
+        weight: 100
+        wildcardPolicy: None

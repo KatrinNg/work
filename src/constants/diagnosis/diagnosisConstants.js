@@ -1,0 +1,50 @@
+const PROBLEM_MODE = 'problem';
+const DEFAULT_PROBLEM_SAVE_STATUS = 'A';
+const PROBLEM_SEARCH_PROBLEM='Service Favourite';
+const PROBLEM_SEARCH_PLACEHOLDER='Search problem by type';
+const PROBLEM_SEARCH_LIST_TYPE = '1';
+const PROBLEM_SHOW_MORE='Showing 6 of 6 matching';
+const ACTION_TYPE = {
+    INSERT: 'I',
+    UPDATE: 'U',
+    DELETE: 'D'
+};
+const NEW_STATUS = {
+    YES: 'Y',
+    NO: 'N'
+};
+const CHRONIC_SAVE_IND_TYPE = {
+    SAVE:'S',
+    DELETED:'D'
+};
+const TABLE_CONTENT_TYPE = {
+    DIAGNOSIS: 'DX',
+    PROCEDURE: 'PX',
+    CHRONIC: 'CHRONIC',
+    LEFTDIAGNOSIS:'LDX',
+    LEFTPROCEDURE: 'LPX'
+};
+
+const DIAGNOSIS_TYPE_CD = {
+    DEFAULT: 'A',
+    PROBLEM: '1',
+    PROCEDURE: '2'
+};
+
+const DIAGNOSIS_STATUS_ORDER = ['A', 'P', 'I', 'R', 'C'];
+const PROCEDURE_STATUS_ORDER = [ 'C', 'I', 'O'];
+export {
+    PROBLEM_MODE,
+    DEFAULT_PROBLEM_SAVE_STATUS,
+    PROBLEM_SEARCH_PROBLEM,
+    PROBLEM_SEARCH_PLACEHOLDER,
+    PROBLEM_SEARCH_LIST_TYPE,
+    PROBLEM_SHOW_MORE,
+    ACTION_TYPE,
+    NEW_STATUS,
+    CHRONIC_SAVE_IND_TYPE,
+    TABLE_CONTENT_TYPE,
+    DIAGNOSIS_STATUS_ORDER,
+    PROCEDURE_STATUS_ORDER,
+    DIAGNOSIS_TYPE_CD
+};

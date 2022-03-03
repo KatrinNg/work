@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: large !important;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #f5f1d1;
+}
+
+#healthForm {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#healthForm tr {
+  background-color: rgb(221, 235, 247);
+}
+
+#healthForm td,
+#healthForm th {
+  border: 1px solid rgb(0, 112, 192);
+  padding: 5px;
+}
+#healthForm th,
+#healthForm td:first-child {
+  font-weight: bold;
+}
+
+#visApp {
+  height: 100%;
+}
+
+#content {
+  background-image: linear-gradient(
+    rgba(248, 203, 173, 0),
+    rgba(248, 203, 173, 1),
+    rgba(248, 203, 173, 1),
+    rgba(248, 203, 173, 1),
+    rgba(248, 203, 173, 1),
+    rgba(248, 203, 173, 1),
+    rgba(252, 228, 214, 0)
+  );
+}
+
+.page-top-heading {
+  text-align: center;
+  position: relative;
+}
+
+.ha-logo {
+  position: absolute;
+  vertical-align: middle;
+}
+
+.page-title {
+  display: inline-block;
+  color: rgb(0, 112, 192);
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.page-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.star,
+.error-msg {
+  color: #f44336;
+}
+
+.th-item {
+  width: 45%;
+  text-align: left;
+}
+
+.th-yes {
+  width: 5%;
+}
+
+.th-no {
+  width: 5%;
+}
+
+td.rd-yes,
+td.rd-no {
+  text-align: center;
+}
+
+.cb-declare-text {
+  display: inline-flex;
+}
+
+#loginForm .error-msg {
+  font-size: large;
+  padding: 10px;
+  border: 1px solid #f44336;
+  border-radius: 5px;
+}
+
+#txt-important-notes {
+  color: #f44336;
+  font-size: small;
+}
+
+.MuiSelect-selectMenu {
+  white-space: normal !important;
+}
+
+/* Extra small devices */
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 14px !important;
+  }
+
+  .ha-logo {
+    width: 32%;
+    left: 0px;
+    top: 5px;
+  }
+
+  .page-title {
+    font-size: 15px;
+    padding-top: 10px;
+    left: 45px;
+  }
+
+  .page-subtitle {
+    font-size: 15px;
+  }
+
+  .cb-declare-text {
+    width: 80%;
+  }
+
+  #loginPage .ha-logo {
+    width: 28%;
+    left: 0px;
+  }
+
+  #loginPage .page-title {
+    font-size: 11.5px;
+    left: 40px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  body {
+    font-size: 14px !important;
+  }
+
+  .ha-logo {
+    width: 32%;
+    left: 0px;
+    top: 2px;
+  }
+
+  .page-title {
+    font-size: 20px;
+    padding-top: 5px;
+    left: 55px;
+  }
+
+  .page-subtitle {
+    font-size: 18px;
+  }
+
+  .cb-declare-text {
+    width: 85%;
+  }
+
+  #loginPage .ha-logo {
+    width: 25%;
+  }
+
+  #loginPage .page-title {
+    font-size: meduium;
+    left: 50px;
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  body {
+    font-size: 14px !important;
+  }
+
+  .ha-logo {
+    width: 25%;
+    left: 0px;
+    top: 5px;
+  }
+
+  .page-title {
+    font-size: 20px;
+    padding-top: 10px;
+    left: 30px;
+  }
+
+  #loginPage .ha-logo {
+    width: 26%;
+    left: 0px;
+  }
+
+  #loginPage .page-title {
+    font-size: 22px;
+    left: 70px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: medium !important;
+  }
+
+  .ha-logo {
+    width: 22%;
+    left: 0px;
+  }
+
+  .page-title {
+    font-size: 22px;
+    padding-top: 10px;
+    left: 10px;
+  }
+
+  #loginPage .ha-logo {
+    width: 26%;
+    left: 0px;
+  }
+
+  #loginPage .page-title {
+    font-size: 26px;
+    left: 90px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: large !important;
+  }
+
+  .ha-logo {
+    width: auto;
+    left: 15px;
+  }
+
+  .page-title {
+    font-size: 28px;
+    left: 50px;
+  }
+
+  .page-subtitle {
+    font-size: 20px;
+  }
+
+  #loginPage .ha-logo {
+    width: auto;
+  }
+
+  #loginPage .page-title {
+    font-size: 30px;
+    left: 90px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ha-logo {
+    left: 15px;
+  }
+
+  .page-title {
+    left: 20px;
+  }
+
+  #loginPage .page-title {
+    left: 25px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+@media print{
+
+  .ha-logo {
+    left: 5px;
+  }
+
+  .page-title {
+    left: 45px;
+  }
+
+  #emailForm {
+    display: none;
+  }
+
+  #resultQRCode a {
+    display: none;
+  }
+}

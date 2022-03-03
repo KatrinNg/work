@@ -1,0 +1,5 @@
+input[type=number].noSroll::-webkit-inner-spin-button, 
+input[type=number].noSroll::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0;
+}

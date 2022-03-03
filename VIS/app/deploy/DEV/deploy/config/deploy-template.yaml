@@ -1,0 +1,74 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+labels:
+  template: cicd-vis-web-app-deploymentconfig-template
+message: cicd-vis-web-app-deploymentconfig-template
+metadata:
+  annotations:
+    description: cicd-vis-web-app-deploymentconfig-template
+    iconClass: icon-nginx
+    openshift.io/display-name: cicd-vis-web-app-deploymentconfig-template
+    openshift.io/provider-display-name: VIS
+    tags: vis
+  name: cicd-vis-web-app-deploymentconfig-template
+objects:
+- apiVersion: apps.openshift.io/v1
+  kind: DeploymentConfig
+  metadata:
+    labels:
+      app: cicd-vis-core-frontend
+    name: cicd-vis-core-frontend
+  spec:
+    replicas: 1
+    selector:
+      deploymentconfig: cicd-vis-core-frontend
+    strategy:
+      activeDeadlineSeconds: 21600
+      resources: {}
+      rollingParams:
+        intervalSeconds: 1
+        maxSurge: 25%
+        maxUnavailable: 25%
+        timeoutSeconds: 600
+        updatePeriodSeconds: 1
+      type: Rolling
+    template:
+      metadata:
+        labels:
+          app: cicd-vis-core-frontend
+          deploymentconfig: cicd-vis-core-frontend
+      spec:
+        containers:
+        - env:
+          - name: TZ
+            value: ${TZ}
+          image: "{image:tag}"
+          imagePullPolicy: Always
+          name: cicd-vis-core-frontend
+          ports:
+          - containerPort: 8080
+            protocol: TCP
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+            - name: nginx-conf-volume
+              mountPath: /etc/nginx/nginx.conf
+              subPath: nginx.conf
+        volumes:
+          - name: nginx-conf-volume
+            configMap:
+              name: cicd-vis-router-svc-nginx-config          
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+    test: false
+    triggers:
+    - type: ConfigChange
+parameters:
+- description: TimeZone
+  displayName: TimeZone
+  name: TZ
+  required: true

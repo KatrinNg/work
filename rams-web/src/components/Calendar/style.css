@@ -1,0 +1,38 @@
+.rbc-header{
+  padding: 0;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.rbc-header + .rbc-header{
+    border: none;
+}
+.rbc-month-row + .rbc-month-row{
+    border: none;
+}
+.rbc-show-more{
+    font-family: PingFangTC;
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    color: #3ab395;
+    width: calc(100% - 5px);
+    padding-left: 5px;
+}
+.rbc-month-view{
+    border: none;
+}
+.rbc-off-range-bg{
+    background: #fff;
+}
+.rbc-off-range{
+    color: #fff;
+}
+.rbc-event:focus{
+    outline: none;
+}
+.rbc-event, .rbc-event.rbc-selected{
+    background: none;
+    padding: 0;
+    width: calc(100% - 7px);
+}

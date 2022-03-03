@@ -1,0 +1,3 @@
+export const TURNAROUD_TIME_CODE = {
+  CANCEL_CHANGE: '101207'
+};

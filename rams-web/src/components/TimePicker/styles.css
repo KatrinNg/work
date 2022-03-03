@@ -1,0 +1,18 @@
+.custom_time_picker .MuiInput-underline:after, 
+.custom_time_picker .MuiInput-underline:hover:not(.Mui-disabled):before, 
+.custom_time_picker .MuiInput-underline:before{
+    border-bottom: none;
+}
+.custom_time_picker .MuiInputBase-root{
+    /* border: solid 1px #bbb; */
+    border-radius: 8px;
+    height: 40px;
+    /* padding-left: 16px; */
+    font-family: PingFangTC;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    padding-right: 0
+}
+

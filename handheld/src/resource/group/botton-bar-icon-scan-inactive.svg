@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A43C6BE6-293E-4395-986F-2F344CF69CB0</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="botton-bar-icon/Scan/Inactive" stroke="#737578" stroke-width="1.1">
+            <g id="Group-2" transform="translate(3.000000, 2.500000)">
+                <g id="Group">
+                    <polyline id="Path" points="0 5 0 2.84217094e-14 5 2.84217094e-14"></polyline>
+                    <polyline id="Path-Copy-2" transform="translate(15.500000, 16.500000) rotate(-180.000000) translate(-15.500000, -16.500000) " points="13 19 13 14 18 14"></polyline>
+                    <polyline id="Path-Copy" transform="translate(15.500000, 2.500000) rotate(-270.000000) translate(-15.500000, -2.500000) " points="13 5 13 0 18 0"></polyline>
+                    <polyline id="Path-Copy-3" transform="translate(2.500000, 16.500000) rotate(-90.000000) translate(-2.500000, -16.500000) " points="0 19 0 14 5 14"></polyline>
+                </g>
+                <line x1="3" y1="9.5" x2="15" y2="9.5" id="Line-3"></line>
+            </g>
+        </g>
+    </g>
+</svg>

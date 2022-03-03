@@ -1,0 +1,14 @@
+#patientUnderCareDialogContent {
+    [class*="MuiRadio-root"] {
+        margin: 0 9px;
+        padding: 0;
+    }
+
+    [class*="MuiRadio-root"]:hover {
+        background-color: rgba(91,155,213, 0.8);
+    }
+
+    [class*="MuiRadio-colorSecondary"][class*="Mui-checked"] {
+        color: #5b9bd5 !important;
+    }
+}

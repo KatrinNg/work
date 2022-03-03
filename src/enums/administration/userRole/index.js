@@ -1,0 +1,6 @@
+export const PAGE_STATUS = {
+    VIEWING: 'VIEWING',
+    SEARCHING: 'SEARCHING',
+    EDITING: 'EDITING',
+    ADDING: 'ADDING'
+};

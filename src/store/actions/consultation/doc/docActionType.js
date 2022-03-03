@@ -1,0 +1,17 @@
+const PRE = 'CONSULTATION_DOC';
+
+export const UPDATE_STATE = `${PRE}_UPDATE_STATE`;
+
+export const SET_IN_OUT_DOC_TYPE = `${PRE}_SET_IN_OUT_DOC_TYPE`;
+
+export const GET_DOC_TYPE = `${PRE}_GET_DOC_TYPE`;
+export const SAVE_DOC_TYPE = `${PRE}_SAVE_DOC_TYPE`;
+
+export const GET_DOC_LIST = `${PRE}_GET_DOC_LIST`;
+export const SAVE_DOC_LIST = `${PRE}_SAVE_DOC_LIST`;
+
+export const GET_SINGLE_DOC = `${PRE}_GET_SINGLE_DOC`;
+export const SAVE_SINGLE_DOC = `${PRE}_SAVE_SINGLE_DOC`;
+
+export const GET_SINGLE_DOC_HISTORY = `${PRE}_GET_SINGLE_DOC_HISTORY`;
+export const SAVE_SINGLE_DOC_HISTORY = `${PRE}_SAVE_SINGLE_DOC_HISTORY`;
